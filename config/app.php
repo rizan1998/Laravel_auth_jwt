@@ -181,8 +181,8 @@ return [
         // jwt
         // 'Tymon\JWTAuth\Providers\JWTAuthServiceProvider',
         'Tymon\JWTAuth\Providers\LaravelServiceProvider'
-
-
+        // php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
+        // php artisan jwt:secret
     ],
 
     /*
