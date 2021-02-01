@@ -162,8 +162,7 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
-        // jwt
-        'Tymon\JWTAuth\Providers\JWTAuthServiceProvider',
+
 
         /*
          * Package Service Providers...
@@ -177,6 +176,12 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+
+
+        // jwt
+        // 'Tymon\JWTAuth\Providers\JWTAuthServiceProvider',
+        'Tymon\JWTAuth\Providers\LaravelServiceProvider'
+
 
     ],
 
